@@ -8,7 +8,7 @@ using PromomashTask.Infrastructure.Common;
 
 namespace PromomashTask.Api.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/registration")]
 	[ApiController]
 	public class UserRegisterController : ControllerBase
 	{

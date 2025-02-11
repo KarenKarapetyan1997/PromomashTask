@@ -5,7 +5,7 @@ using PromomashTask.Application.Queries.Countries;
 
 namespace PromomashTask.Api.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/country")]
 	[ApiController]
 	public class CountriesController : ControllerBase
 	{

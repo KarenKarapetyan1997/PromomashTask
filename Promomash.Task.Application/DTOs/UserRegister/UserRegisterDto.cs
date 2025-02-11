@@ -14,7 +14,7 @@ namespace PromomashTask.Application.DTOs.UserRegister
 		[Required]
 		[DataType(DataType.Password)]
 		[Compare(nameof(Password))]
-		public required string CofirmPassword { get; set; }
+		public required string ConfirmPassword { get; set; }
 		[Required]
 		public required Guid CountryId { get; set; }
 		[Required]

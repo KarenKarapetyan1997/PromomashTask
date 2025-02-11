@@ -6,7 +6,7 @@ using PromomashTask.Application.DTOs.UserLogin;
 
 namespace PromomashTask.Api.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/login")]
 	[ApiController]
 	public class LoginController : ControllerBase
 	{
